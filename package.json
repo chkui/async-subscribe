@@ -1,0 +1,29 @@
+{
+  "name": "async-notify",
+  "version": "1.0.0",
+  "description": "\"Async notify for javascript\"",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "babel": "./node_modules/.bin/babel src/ --out-dir lib/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chkui/async-subscribe.git"
+  },
+  "author": "chkui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chkui/async-subscribe/issues"
+  },
+  "homepage": "https://github.com/chkui/async-subscribe#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5"
+  }
+}
